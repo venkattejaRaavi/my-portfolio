@@ -6,6 +6,7 @@ import Resume from './resume';
 import Projects from './projects';
 import AboutMe from './aboutme';
 import Contact from './contact';
+import CenteredGrid from './grid';
 
 const Main = () => (
 	<Switch>
@@ -14,6 +15,7 @@ const Main = () => (
 		<Route path="/projects" component={Projects} />
 		<Route path="/aboutme" component={AboutMe} />
 		<Route path="/contact" component={Contact} />
+		<Route path="/grid" component={CenteredGrid} />
 	</Switch>
 );
 export default Main;
